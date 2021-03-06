@@ -7,10 +7,10 @@ It alters any images and text to be themed after HexCorp.*
 
 ## Installation
 
-This extension is not available in the store.  
+This extension is not available in the chrome web store.  
 But it can be installed using the developer mode.
 
-1. Download code from [github](https://github.com/HexDrone3064/FullscreenHypnosis) and unzip it.
+1. Download [Release](https://github.com/HexDrone3064/FullscreenHypnosis/releases/) and unzip it.
 1. Enable developer mode in [chrome://extensions](chrome://extensions/).
 1. Click `Load unpacked` and select folder which contains files.  
    (If the folder is duplicated, select the inner one.)
