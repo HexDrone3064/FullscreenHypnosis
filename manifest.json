@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "Fullpage hypnosis",
+  "short_name": "fp hypnosis",
+  "description": "Inject the spiral into website. | HexCorp Drone #3064 is property of @HexCorpPRDept",
+  "icons": {
+    "32": "img/logo32.png",
+    "128": "img/logo128.png"
+  },
+  "version": "1.0.0",
+  "browser_action": {
+    "default_icon": {
+      "32": "img/logo32.png",
+      "128": "img/logo128.png"
+    },
+    "default_title": "⬡-Drone #3064",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "content_script.js"
+      ],
+      "run_at": "document_end",
+      "all_frames": false
+    }
+  ],
+  "web_accessible_resources": [
+    "img/*"
+  ],
+  "permissions": [
+    "storage",
+    "<all_urls>"
+  ]
+}

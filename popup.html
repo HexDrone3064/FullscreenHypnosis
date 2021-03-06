@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <div id="hexCorpTabMenu">
+      <img src="img/logo.png" id="hexCorpLogo"> <br>
+
+      <div class="group">
+        <h2>Foreground</h2>
+        <label>Opacity</label>
+        <input id="fg_opacity" type="range" min="0" max="1" step="0.001"> <br>
+        <label>Inject</label>
+        <input id="fg_inject" type="checkbox"> <br>
+      </div>
+
+      <div class="_group">
+        <h2>Background</h2>
+        <label>Opacity</label>
+        <input id="bg_opacity" type="range" min="0" max="1" step="0.001"> <br>
+        <label>Inject</label>
+        <input id="bg_inject" type="checkbox"> <br>
+      </div>
+
+      <button id="bt_apply">Apply</button>
+
+      <script type="text/javascript" src="popup.js"></script>
+    </div>
+  </body>
+</html>

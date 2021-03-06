@@ -1,0 +1,51 @@
+body {
+	text-align: center;
+	background-color: #222222;
+}
+
+#hexCorpLogo {
+	width: 100px;
+	margin: 5px;
+	border: 2px solid #000000;
+}
+
+.group {
+	margin: 10px;
+}
+
+h2 {
+	color: #ff66ff;
+	margin: 0;
+}
+
+label {
+	color: #ff66ff;
+}
+
+input {
+	background-color: #ff66ff;
+}
+
+button {
+	outline: none;
+	border: 2px solid #000000;
+	border-radius: 8px;
+	background-color: #ff66ff;
+}
+button:hover {
+	background-color: #f195f2;
+}
+button:active {
+	background-color: #e3c4e5;
+}
+
+/* button {
+	background-color: #ff66ff;
+	outline: none;
+	border: 2px solid #000000;
+	border-radius: 8px;
+}
+
+button:hover {
+	background-color: #f195f2;
+} */
